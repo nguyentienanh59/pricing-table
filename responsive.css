@@ -1,0 +1,14 @@
+@media (max-width: 64em) {
+}
+@media (min-width: 46.25em) and (max-width: 1023px) {
+}
+@media (max-width: 46.1875em) {
+
+  .price-header h3 {
+    font-size: 24px;
+  }
+  .status {
+    left: 41%;
+    transform: translateY(-45%);
+  }
+}
