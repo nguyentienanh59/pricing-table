@@ -17,10 +17,10 @@
   justify-content: center;
   gap: 28px;
   flex-wrap: wrap;
-
   padding: 50px;
 }
 .price-col {
+  position: relative;
   border: 1px solid #000000;
   text-align: center;
 }
@@ -71,7 +71,6 @@
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
-
   list-style: none;
 }
 .header-ultimate {
@@ -82,7 +81,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-
   color: var(--four);
 }
 .header-ultimate h3 {
@@ -134,7 +132,7 @@ li:nth-child(odd) {
   background: var(--fifth);
   position: absolute;
   border-radius: 50%;
-  left: 47%;
+  left: 40%;
   transform: translateY(-50%);
 }
 .status h4 {
