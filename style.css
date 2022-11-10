@@ -1,3 +1,10 @@
+:root{
+  --primary:#ffffff;
+  --second:#00bcd4;
+  --third:#393d50;
+  --four:#5f727f;
+  --fifth:#ffcd37;
+}
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +36,7 @@
   left: 2px;
   top: 0px; */
   padding: 35px 0px;
-  background-color: #393d50;
+  background-color: var(--third);
 }
 .price-header h3 {
   /* position: relative; */
@@ -37,7 +44,7 @@
   /* justify-content: center; */
   letter-spacing: 1.8px;
   text-transform: uppercase;
-  color: #00bcd4;
+  color: var(--second);
   font-family: "Montserrat";
   font-size: 36px;
   font-style: normal;
@@ -46,7 +53,7 @@
   /* top: 38px; */
 }
 .price-header span {
-  color: #ffffff;
+  color: var(--primary);
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
@@ -76,7 +83,7 @@
 }
 .price-desc p {
   font-size: 24px;
-  color: #00bcd4;
+  color: var(--second);
 }
 .price-desc pre {
   color: #99a9b5;
@@ -100,7 +107,7 @@
   font-weight: 400;
   font-size: 14px;
   /* line-height: 25px; */
-  color: #5f727f;
+  color: var(--four);
   /* position: absolute;
   width: 204px; */
   /* height: 25px;
@@ -113,7 +120,7 @@
   justify-content: center; */
   /* letter-spacing: 1.8px;
   text-transform: uppercase; */
-  color: #ffffff;
+  color: var(--primary);
   /* font-family: "Montserrat";
   font-size: 36px;
   font-style: normal;
@@ -127,7 +134,7 @@
   height: 37px;
   left: 99px;
   top: 62.5px; */
-  color: #ffffff;
+  color: var(--primary);
   /* display: flex;
   align-items: center;
   text-align: center; */
@@ -135,7 +142,7 @@
 ul li {
   font-size: 16px;
   line-height: 60px;
-  color: #5f727f;
+  color: var(--four);
 }
 li:nth-child(odd) {
   background: #f4f6f7;
@@ -160,10 +167,10 @@ li:nth-child(odd) {
   letter-spacing: 0.8px;
   font-weight: 700;
   font-size: 16px;
-  color: #00bcd4;
+  color: var(--second);
   text-transform: uppercase;
-  background-color: #ffffff;
-  border: 2px solid #00bcd4;
+  background-color: var(--primary);
+  border: 2px solid var(--second);
 }
 
 .price-col:hover .price-header {
@@ -172,13 +179,13 @@ li:nth-child(odd) {
 }
 .price-btn button:hover {
   cursor: pointer;
-  background-color: #00bcd4;
-  color: #ffffff;
+  background-color: var(--second);
+  color: var(--primary);
 }
 .status {
   height: 60px;
   width: 60px;
-  background: #ffcd37;
+  background: var(--fifth);
   position: absolute;
   border-radius: 50%;
   left: 47%;
@@ -187,3 +194,4 @@ li:nth-child(odd) {
 .status h4 {
   padding-top: 22px;
 }
+
