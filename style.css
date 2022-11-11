@@ -1,0 +1,140 @@
+:root {
+  --primary: #ffffff;
+  --second: #00bcd4;
+  --third: #393d50;
+  --four: #5f727f;
+  --fifth: #ffcd37;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.price-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.price-col {
+  position: relative;
+  border: 1px solid #000000;
+  text-align: center;
+}
+.price-header {
+  padding: 35px 0px;
+  background-color: var(--third);
+}
+.price-header h3 {
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: var(--second);
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+}
+.price-header span {
+  color: var(--primary);
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+}
+.price-header pre {
+  color: #99a9b5;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  padding: 0px 90px 0px 90px;
+}
+.price-desc {
+  padding-top: 28px;
+  padding-bottom: 16.5px;
+}
+.price-desc p {
+  font-size: 24px;
+  color: var(--second);
+}
+.price-desc pre {
+  color: #99a9b5;
+  font-size: 14px;
+}
+.price-col ul {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  list-style: none;
+}
+.header-ultimate {
+  padding: 27px 0px 27px 0px;
+}
+.header-ultimate p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--four);
+}
+.header-ultimate h3 {
+  color: var(--primary);
+}
+.header-ultimate pre {
+  color: var(--primary);
+}
+ul li {
+  font-size: 16px;
+  line-height: 60px;
+  color: var(--four);
+}
+li:nth-child(odd) {
+  background: #f4f6f7;
+}
+.text-deco {
+  text-decoration: line-through;
+  color: #99a9b5;
+}
+
+.price-btn button {
+  font-family: "Montserrat";
+  font-style: normal;
+  margin: 20px 0px 20px;
+  width: 118px;
+  height: 40px;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--second);
+  text-transform: uppercase;
+  background-color: var(--primary);
+  border: 2px solid var(--second);
+}
+
+.price-col:hover .price-header {
+  padding-top: 45px;
+  cursor: pointer;
+}
+.price-btn button:hover {
+  cursor: pointer;
+  background-color: var(--second);
+  color: var(--primary);
+}
+.status {
+  height: 60px;
+  width: 60px;
+  background: var(--fifth);
+  position: absolute;
+  border-radius: 50%;
+  left: 40%;
+  transform: translateY(-50%);
+}
+.status h4 {
+  padding-top: 22px;
+}
